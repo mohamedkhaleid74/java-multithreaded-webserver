@@ -3,8 +3,9 @@
 A lightweight HTTP server built from scratch using Java sockets and multithreading concepts. The server handles multiple clients concurrently, supports HTTP GET requests, serves static HTML pages, and provides logging with response time measurement.
 
 ## 📷 Demo
+<img width="1325" height="904" alt="image" src="https://github.com/user-attachments/assets/9c69790d-0cf1-4e7b-bae6-90719ff4306c" />
+<img width="949" height="652" alt="image" src="https://github.com/user-attachments/assets/1ed35beb-1d0f-459d-9bc8-c4cefafd1d9d" />
 
-> Add a screenshot or GIF here.
 
 ---
 

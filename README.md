@@ -1,35 +1,112 @@
-🌐 Multi-Threaded Java HTTP Server
+# 🌐 Multi-Threaded Java HTTP Server
 
-Designed and implemented a lightweight HTTP server from scratch using Java sockets and multithreading concepts.
+A lightweight HTTP server built from scratch using Java sockets and multithreading concepts. The server handles multiple clients concurrently, supports HTTP GET requests, serves static HTML pages, and provides logging with response time measurement.
 
-✨ Features
-• Handles multiple clients concurrently using a thread-per-request architecture.
-• Supports HTTP GET requests and serves static HTML files.
-• Measures and logs response times for performance monitoring.
-• Maintains detailed server logs including timestamps, thread names, and client IP addresses.
-• Implements custom 404 error handling.
-• Demonstrates low-level HTTP and TCP communication without external frameworks.
+## 📷 Demo
 
-🛠 Technologies
-Java • TCP Sockets • Multithreading • HTTP • File I/O
+> Add a screenshot or GIF here.
 
-📚 Key Concepts
-• Client-Server Architecture
-• Socket Programming
-• Concurrent Request Handling
-• HTTP Protocol Internals
-• Performance Monitoring
-• Logging and Error Handling
+---
 
-This project was built to gain practical experience with networking fundamentals and understand how web servers process multiple requests simultaneously.
+## ✨ Features
 
+* Handle multiple clients concurrently using a thread-per-request architecture.
+* Support HTTP GET requests.
+* Serve static HTML files.
+* Measure response time for each request.
+* Log timestamps, thread names, and client IP addresses.
+* Custom 404 error handling.
+* Demonstrate low-level HTTP and TCP communication without external frameworks.
 
-## Run
-1. Compile:
-   javac src/com/webserver/*.java
+---
 
-2. Run:
-   java com.webserver.Server
+## 🛠 Technologies
 
-3. Open:
-   http://localhost:8080
+* Java
+* TCP Sockets
+* Multithreading
+* HTTP Protocol
+* File I/O
+
+---
+
+## 📚 Key Concepts
+
+* Client-Server Architecture
+* Socket Programming
+* Concurrent Request Handling
+* HTTP Request / Response Cycle
+* Performance Monitoring
+* Logging and Error Handling
+
+---
+
+## 📂 Project Structure
+
+```text
+src/com/webserver/    Java source files
+www/                  Static HTML pages
+start_server.bat      Server launcher
+README.md             Project documentation
+```
+
+---
+
+## 🚀 Run
+
+### 1. Compile
+
+```bash
+javac src/com/webserver/*.java
+```
+
+### 2. Run
+
+```bash
+java com.webserver.Server
+```
+
+or
+
+```bash
+start_server.bat
+```
+
+### 3. Open in Browser
+
+```text
+http://localhost:8080
+```
+
+---
+
+## 📝 Example Log
+
+```text
+[10:32:15] Thread-3 | 127.0.0.1 | GET /index.html | 4 ms
+[10:32:20] Thread-5 | 127.0.0.1 | GET /about.html | 3 ms
+```
+
+---
+
+## 🔮 Future Improvements
+
+* Support HTTP POST requests.
+* Implement Thread Pool architecture.
+* Add HTTPS/TLS support.
+* Support file uploads.
+* Improve caching and performance.
+
+---
+
+## 🎯 Learning Outcomes
+
+This project was developed to gain hands-on experience with:
+
+* Java socket programming
+* HTTP protocol internals
+* Multithreading and concurrent processing
+* Client-server architecture
+* Performance monitoring and logging
+
+It provides a practical understanding of how web servers process multiple requests simultaneously.

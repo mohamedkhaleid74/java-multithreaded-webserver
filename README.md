@@ -1,13 +1,28 @@
-# Multi-threaded Java Web Server
+🌐 Multi-Threaded Java HTTP Server
 
-Simple HTTP server built with Java using TCP sockets and multi-threading.
+Designed and implemented a lightweight HTTP server from scratch using Java sockets and multithreading concepts.
 
-## Features
-- Handles multiple clients concurrently
-- Supports HTTP GET requests
-- Serves static files (HTML)
-- Logging and response time
-- 404 error handling
+✨ Features
+• Handles multiple clients concurrently using a thread-per-request architecture.
+• Supports HTTP GET requests and serves static HTML files.
+• Measures and logs response times for performance monitoring.
+• Maintains detailed server logs including timestamps, thread names, and client IP addresses.
+• Implements custom 404 error handling.
+• Demonstrates low-level HTTP and TCP communication without external frameworks.
+
+🛠 Technologies
+Java • TCP Sockets • Multithreading • HTTP • File I/O
+
+📚 Key Concepts
+• Client-Server Architecture
+• Socket Programming
+• Concurrent Request Handling
+• HTTP Protocol Internals
+• Performance Monitoring
+• Logging and Error Handling
+
+This project was built to gain practical experience with networking fundamentals and understand how web servers process multiple requests simultaneously.
+
 
 ## Run
 1. Compile:
